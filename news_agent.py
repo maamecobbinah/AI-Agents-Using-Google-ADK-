@@ -6,7 +6,7 @@ from datetime import datetime
 import json
 
 # ============================================================================
-# ENHANCED NEWS SEARCH FUNCTION
+# SEARCH FUNCTION: this searches for news based on user query
 # ============================================================================
 
 def search_news(query: str, max_results: int = 5) -> dict:
@@ -36,14 +36,14 @@ def search_news(query: str, max_results: int = 5) -> dict:
     # Clean the query - remove extra whitespace and encode properly
     query = query.strip()
     
-    # === BUILD RSS URL ===
-    # Google News RSS endpoint with proper encoding
+
+      # === BUILD RSS URL ===
+    # Global News RSS endpoint with proper encoding
     rss_url = (
-        "https://news.google.com/rss/search"
-        f"?q={requests.utils.quote(query)}"  # Proper URL encoding
-        "&hl=en-US&gl=US&ceid=US:en"
+        "https://globalnews-ca-staging.go-vip.net/feed/"  ### utilizing gloabal news feed instead 
+        f"?s={requests.utils.quote(query)}"  # Search parameter is 's' not 'q'
     )
-    
+
     # === FETCH NEWS WITH RETRY LOGIC ===
     max_retries = 2
     for attempt in range(max_retries):
