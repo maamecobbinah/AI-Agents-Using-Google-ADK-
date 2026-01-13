@@ -39,7 +39,7 @@ Callbacks allow you to **manage agent state, modify variables, and control behav
 - **Before Model Callback:** Preprocessing, caching, or tool preparation.  
 - **After Model Callback:** Guardrails and output validation.
 
----
+
 
 ## MCP (Model Component Platform) Overview
 
@@ -74,7 +74,7 @@ The agent will:
 5. Keep content age-appropriate  
 6. Block or redirect non-educational or explicit topics
 
----
+
 
 
 ### Example Interaction
