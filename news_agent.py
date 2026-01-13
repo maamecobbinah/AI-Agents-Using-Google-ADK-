@@ -136,7 +136,7 @@ def search_news(query: str, max_results: int = 5) -> dict:
 
 
 # ============================================================================
-# ENHANCED WEB CONTENT FETCHER - WITH IMPROVED SCRAPING
+# ENHANCED WEB CONTENT FETCHER - MAAME COBBY TXT 
 # ============================================================================
 
 def fetch_article_content(url: str) -> dict:
