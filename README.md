@@ -1,4 +1,4 @@
-# Inspiration Agents with Google ADK
+# Agents with Google ADK
 
 This repository gives an overview of how to build **simple agents** using the **Google Agent Development Kit (ADK)**.
 
