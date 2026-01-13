@@ -17,7 +17,7 @@ For ADK samples, see: [Google ADK Samples](https://github.com/google/adk-samples
 **Google Agent Development Kit (ADK)** is a framework that simplifies the creation and deployment of AI agents.  
 It allows agents to interact with tools, process data (text, audio, files, video), and use advanced AI models from Google and third parties.
 
----
+
 
 ## Types of Agents in ADK
 
@@ -29,7 +29,7 @@ It allows agents to interact with tools, process data (text, audio, files, video
 - **Cooperative Multi-Agent:** Multiple agents collaborate (e.g., one prepares data, another analyzes).  
 - **Competitive Multi-Agent:** Agents propose solutions and the best is selected.
 
----
+
 
 ## Agent Callbacks in ADK
 
@@ -46,7 +46,6 @@ Callbacks allow you to **manage agent state, modify variables, and control behav
 **MCP** is a middleware platform that manages and connects AI agents to tools and prompts efficiently.  
 It acts as a central server, allowing agents to share tools and prompts, reducing duplication and making scaling easier.
 
----
 
 ## Prototype: Socratic Science Storyteller Agent
 
@@ -59,7 +58,6 @@ The agent helps **children and young learners** explore topics in **science, tec
 
 Rather than giving direct answers, the agent **guides learning through questions, narratives, and age-appropriate explanations**, encouraging critical thinking and discovery.
 
----
 
 ### What the Agent Does
 
@@ -91,13 +89,13 @@ The agent will:
 > **Agent:**  
 > “Great thought! What do you think the fire pushes against to lift the rocket up?”
 
----
+
 
 ### Agent Type
 
 **Single Agent** – All reasoning, storytelling, questioning, and safety checks are handled by a single ADK agent, making the system simple and extensible.
 
----
+
 
 ### Guardrails & Safety Design
 
@@ -112,7 +110,7 @@ The agent does **not**:
 - Generate explicit or violent content  
 - Collect personal data  
 
----
+
 
 ### Project Structure
 
