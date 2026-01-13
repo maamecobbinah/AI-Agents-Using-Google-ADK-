@@ -4,13 +4,13 @@ This repository gives an overview of how to build **simple agents** using the **
 
 For ADK samples, see: [Google ADK Samples](https://github.com/google/adk-samples/tree/main)
 
----
+
 
 ## Prerequisites
 - Python 3.9+
 - Google Cloud API Key (free tier supported)
 
----
+
 
 ## What is Google ADK?
 
