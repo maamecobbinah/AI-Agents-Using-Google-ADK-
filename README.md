@@ -41,7 +41,7 @@ Callbacks allow you to **manage agent state, modify variables, and control behav
 
 
 
-## MCP (Model Component Platform) Overview
+## MCP (Model Context Protocol) Overview
 
 **MCP** is a middleware platform that manages and connects AI agents to tools and prompts efficiently.  
 It acts as a central server, allowing agents to share tools and prompts, reducing duplication and making scaling easier.
